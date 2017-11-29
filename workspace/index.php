@@ -8,6 +8,7 @@ include 'scripts/session_script.php';
 $sql = $dbc->query("SELECT * FROM products");
 $row = mysqli_fetch_row;
 
+
 $products = '';
 	while($row = mysqli_fetch_array($sql, MYSQLI_ASSOC)){
         $id =  $row['id'];
