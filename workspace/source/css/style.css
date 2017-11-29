@@ -1,0 +1,212 @@
+html, body{
+    color: grey;
+    margin: 0;
+}
+
+html{
+    background-image: url(../../source/images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutCalendar{
+    padding: 10px; 
+    background-color:grey; 
+    position: absolute; 
+    border: 1px solid grey; 
+    border-radius:10px; 
+    color: white; 
+    font-weight: 700;
+}
+
+
+.logoTitle{
+    color: silver;
+}
+
+
+.serviceBox{
+    margin-top: 10px;
+}
+
+.serviceBoxTitle{
+    height: 130px;
+    background-color: none;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p{
+    color: grey;
+}
+
+
+/* footer */
+.footer{
+    margin-top: 10px;
+    
+}
+
+.footerTop{
+    background-color: #222121;
+    color: silver;
+    text-align: center;
+}
+
+.footerTop h4{
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footerTop h4 span{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 20px;
+}
+
+.footerTop a{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    cursor: pointer;
+    color: silver;
+    margin-top: 20px;
+}
+
+.footerTop a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+.footerBottom{
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
+}
+
+.footerBottom p{
+    color: white;
+}
+
+.footerBottom a{
+    cursor: pointer;
+}
+.footerBottom a:hover{
+    text-decoration: none;
+}
+
+
+.right{
+   background-color: blue; 
+}
+
+.left{
+    background-color: orange;
+    border-bottom: 1px solid orange;
+}
+
+.logo a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navButtons{
+    background-color: none;
+    font-size: 20px;
+}
+
+.navButtons:hover{
+    background-color: #969091;
+}
+
+.menuButtons{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menuButtons a{
+    font-size: 80px;
+    font-weight: 700;
+    color: grey;
+    width: 100%;
+}
+
+.menuButtons a:hover{
+    color: #eff2f2;
+}
+
+.menuButtonsIn{
+    background-color: silver;
+    padding: 40px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+
+
+/* login */
+
+.forgot a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.loginForm{
+    border: 1px solid silver;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 40px 40px 40px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+/* register */
+div span.error{
+	color: #FC8579;
+	font-style: italic;
+	font-size: 1em;
+}
+
+select.error{
+    border-color: #FC8579;
+	background-color: #FDE9E7;
+}
+
+input[type="number"].error, input[type="text"].error, input[type="password"].error, select.error {
+	border-color: #FC8579;
+	background-color: #FDE9E7;
+}
+
+input[type="number"].valid, input[type="text"].valid, input[type="password"].valid, select.valid {
+	border-color: #4CC424;
+	background-color: #EAFFE3;
+}
+
+
+
+/* login session */
+
+.loginUser{
+    color: #75ff33;
+}
+
+.logoutUser{
+    color:  #fd93a3;
+}
+
+
+
+.disInline{
+    display: inline;
+    color: red;
+}
+
+
+
+
